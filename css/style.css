@@ -539,12 +539,129 @@ form {
 	background-position: center center;
     
 }
+.text_shop{
+    font-size: 20px;
+    margin-top: 65px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: 438px;
+    padding-top: 20px ;
+    justify-content: space-between;
+}
+.product{
+    height: 438px;
+    width: 346px;
+}
+.image{
+    margin-left: 23px;
+    margin-bottom: -37px; 
+    position: relative;
+    z-index: -1;
+}
+.info{
+    border: 3px solid #b59f5b;
+    width: 347px;
+    height: 267px;
+}
+.shop_title{
+    font-size: 20px;
+    font-family: 'open-sans-b';
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 55px 0px 0px 20px;
+    line-height: 24px;   
+}
+.texts_shop{
+    font-size: 15px;
+    font-family: 'open-sans-r';
+    line-height: 22px;
+    font-weight: 400;
+    margin: 0px 0px 27px 20px;
+}
+.tut{
+    color: #b59f5b;
+    text-decoration: none;
+}
+.tut:hover{
+    text-decoration: underline;
+    text-align: center;
+}
+.price_buccet{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.price{
+    font-size: 20px;
+    font-family: 'open-sans-b';
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    top: 17px;
+}
+.price::before{
+    content: "1000р";
+    position: absolute;
+    bottom: 43px;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+.add_to_card{
+    width: 140px;
+    height: 48px;
+    background-color: #b59f5b;  
+    border: none;
+    outline: none;
+}
+.add_to_card:hover{
+    background-color: #323232;
+}
+.magas{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'open-sans-b';
+    font-weight: 700;
+}
+.rabbit{
+    margin-right: 20px;
+}
+.price_two{
+    font-size: 20px;
+    font-family: 'open-sans-b';
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 17px; 
+}
+.frame{
+    margin-right: 30px;
+}
+.price_three{
+    font-size: 20px;
+    font-family: 'open-sans-b';
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    top: 17px;
+}
+.price_three::before{
+    content: "500р";
+    position: absolute;
+    left: 0.5px;
+    bottom: 43px;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+
+
 
 footer {
     padding-top: 67px;
     display: block;   
 }
-
 .social-icon {
     width: 100%;
     padding-top: 20px;
